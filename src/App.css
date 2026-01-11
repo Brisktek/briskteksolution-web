@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* Ensure the app takes up the full width and removes default Vite centering */
+
+:root {
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+    display: block;
+    /* Changes from flex to block to allow full width */
+    min-width: 100%;
+    min-height: 100vh;
+    background-color: white;
+}
+
+#root {
+    width: 100%;
+}

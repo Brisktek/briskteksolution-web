@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+@import "tailwindcss";
+@theme {
+    --color-brisk-navy-100: #171f3b;
+    /* Ellipse 8 core */
+    --color-sphere-blue: #6536ff;
+    /* Ellipse 6 */
+    --color-sphere-pink: #fbaafd;
+    /* Ellipse 5 */
+    --color-point-purple: #8b5cf6;
+}
+
+
+/* RESET EVERYTHING */
+
+:root {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: block !important;
+    width: 100%;
+    background-color: white;
+    font-family: 'Inter' !important;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    color: #171f3b !important;
+}
+
+#root {
+    width: 100%;
+}
+
+.bottom--80 {
+    bottom: -80px !important;
+}
