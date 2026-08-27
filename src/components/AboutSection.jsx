@@ -48,7 +48,7 @@ const AboutSection = () => {
             {/* Added extra mb-20 md:mb-40 to create space beneath cards */}
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8 mb-20 md:mb-40">
               {/* Card 1 */}
-              <div className="group flex flex-col items-start rounded-2xl bg-[#F9F9F9] p-8 text-left transition-all hover:ring-1 hover:ring-blue-100 md:p-12">
+              <div className="group flex flex-col items-start rounded-2xl bg-[#F9F9F9] p-8 text-left transition-all border-[#FFFFFF] hover:ring-1 hover:ring-blue-100 md:p-12">
                 <div className="mb-8 flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-slate-300 text-sm text-slate-400 md:mb-[42px]">
                   1
                 </div>

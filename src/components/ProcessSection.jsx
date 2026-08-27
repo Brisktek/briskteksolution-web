@@ -148,15 +148,15 @@ const ProcessSection = () => {
         </div>
 
         {/* --- VALUED CLIENT SECTION --- */}
-        <div className="w-full bg-white py-20 lg:py-40">
+        {/* <div className="w-full bg-white py-20 lg:py-40">
           <div className="mx-auto max-w-[1920px]">
             <h2 className="mb-20 text-left font-['Inter'] text-[32px] font-medium tracking-tight text-[#0B1221] md:text-[48px] lg:text-[64px]">
               Valued Client
             </h2>
 
-            {/* Centering wrapper with restricted width */}
+            
             <div className="mx-auto max-w-[850px]">
-              {/* Logo Grid: justify-items-center ensures each item is centered in its cell */}
+              
               <div className="grid grid-cols-2 items-center justify-items-center gap-8 md:grid-cols-4 lg:gap-12">
                 <div className="flex flex-col items-center">
                   <img
@@ -323,7 +323,9 @@ const ProcessSection = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+
+        {/* --- VALUED CLIENT SECTION ENDS --- */}
       </div>
     </section>
   );

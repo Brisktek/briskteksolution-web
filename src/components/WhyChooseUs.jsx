@@ -46,19 +46,19 @@ const WhyChooseUs = () => {
             <div className="grid lg:grid-cols-3 items-end gap-6">
               <div className="flex lg:h-[400px] flex-col justify-between rounded-[32px] bg-white p-10 shadow-2xl transition-all hover:scale-[1.02]">
                 <h4 className="text-right lg:text-[36px] font-bold text-[#0B1221]">Innovation</h4>
-                <p className="lg:text-[24px] leading-relaxed text-slate-500">
+                <p className="lg:text-[24px] leading-relaxed">
                   We deliver scalable, future-proof technology that evolves with your business.
                 </p>
               </div>
               <div className="flex lg:h-[480px] flex-col justify-between rounded-[32px] bg-white p-10 shadow-2xl transition-all hover:scale-[1.02]">
                 <h4 className="text-right lg:text-[36px] font-bold text-[#0B1221]">Reliability</h4>
-                <p className="lg:text-[24px] leading-relaxed text-slate-500">
+                <p className="lg:text-[24px] leading-relaxed">
                   Seamless operations backed by trusted support.
                 </p>
               </div>
               <div className="flex lg:h-[620px] flex-col justify-between rounded-[32px] bg-white p-10 shadow-2xl transition-all hover:scale-[1.02]">
                 <h4 className="text-right lg:text-[36px] font-bold text-[#0B1221]">Customer Success</h4>
-                <p className="lg:text-[24px] leading-relaxed text-slate-500">
+                <p className="lg:text-[24px] leading-relaxed">
                   Your growth is our mission. We build partnerships, not just solutions.
                 </p>
               </div>

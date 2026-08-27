@@ -89,7 +89,7 @@ const Footer = () => {
             <h4 className="mb-6 text-[16px] font-bold text-[#0B1221]">Contact us</h4>
             <div className="flex flex-col gap-4 text-[13px] md:text-[14px]">
               <p>
-                <span className="font-semibold text-slate-700">Call:</span> +1 (778) 000-0000
+                <span className="font-semibold text-slate-700">Call:</span> +1 (778) 776-1564
               </p>
               <p>
                 <span className="font-semibold text-slate-700">Email:</span> info@briskteksolution.com
@@ -104,7 +104,7 @@ const Footer = () => {
         <div className="mx-auto max-w-[1920px] px-[5%] lg:px-[120px]">
           {/* Changed items-center to items-start for mobile left alignment */}
           <div className="flex flex-col items-start justify-between gap-4 md:flex-row md:items-center text-[11px] md:text-[12px] text-slate-400">
-            <p>000 - 000 Forster Street North Vancouver, BC, Canada AB1 C34</p>
+            <p>Vancouver, BC, Canada</p>
             <p>All right reserved. privacy Policy | Site Map</p>
           </div>
         </div>

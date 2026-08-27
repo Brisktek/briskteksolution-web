@@ -51,22 +51,21 @@ const Navbar = () => {
   return (
     <nav className="w-full min-h-[80px] md:h-[137px] flex items-center justify-between px-[20px] md:px-[45px] py-[20px] md:py-[40px] bg-[#F9F9F9]/50 backdrop-blur-sm sticky top-0 z-50 font-['Inter']">
       {/* Logo Section */}
-      <div className="flex items-start gap-[12px] md:gap-[16px] z-50">
-        <div className="flex-shrink-0 w-[40px] md:w-auto">
-          <img
-            src={logoIcon}
-            alt="BriskTek Icon"
-            className="w-full h-full object-contain"
-          />
-        </div>
-        <div className="flex items-center h-[30px] md:h-auto">
-          <img
-            src={logoName}
-            alt="BriskTek Solution"
-            className="h-full w-auto object-contain"
-          />
-        </div>
-      </div>
+      <div 
+  onClick={(e) => handleNavClick(e, 'Home')}
+  className="flex items-start gap-[12px] md:gap-[16px] z-50 cursor-pointer transition-opacity hover:opacity-80"
+>
+  <div className="flex-shrink-0 w-[40px] md:w-auto">
+    <img src={logoIcon} alt="BriskTek Icon" className="w-full h-full object-contain" />
+  </div>
+  <div className="flex items-center h-[30px] md:h-auto">
+    <img 
+      src={logoName} 
+      alt="BriskTek Solution" 
+      className="h-full w-auto object-contain" 
+    />
+  </div>
+</div>
 
       {/* Hamburger Icon - Only visible on small screens */}
       <button
