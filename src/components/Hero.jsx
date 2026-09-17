@@ -35,15 +35,9 @@ const Hero = () => {
     setStatus("");
 
     // 2. EmailJS Credentials
-    // Replace this:
-// const SERVICE_ID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
-// const TEMPLATE_ID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
-// const PUBLIC_KEY = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
-
-// With this:
-const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
-const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
-const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+    const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+    const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+    const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
     try {
       await emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, formRef.current, {
@@ -63,15 +57,15 @@ const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
   return (
     <section
       id="home"
-      className="relative flex min-h-[893px] w-full flex-col items-center overflow-hidden rounded-[36px] bg-white pt-[145px]"
+      className="relative flex min-h-[560px] sm:min-h-[720px] md:min-h-[893px] w-full flex-col items-center overflow-hidden rounded-[36px] bg-white pt-[95px] sm:pt-[120px] md:pt-[145px] pb-12 md:pb-0"
     >
       {/* 1. Hero Content */}
       <div className="relative z-20 mx-auto max-w-[1920px] px-5 text-center sm:px-10 lg:px-[45px]">
-        <h1 className="mb-12 font-['Inter'] text-4xl font-medium leading-[1.1] tracking-tight text-brisk-navy-100 sm:text-6xl md:mb-[105px] md:text-7xl lg:text-[84px]">
+        <h1 className="mb-6 sm:mb-8 font-['Inter'] text-4xl font-medium leading-[1.1] tracking-tight text-brisk-navy-100 sm:text-6xl md:mb-[105px] md:text-7xl lg:text-[84px]">
           Your Vision, <br className="hidden sm:block" /> Our Technology
         </h1>
 
-        <p className="mx-auto mb-10 max-w-[850px] text-base leading-[130%] text-slate-500 sm:text-lg md:mb-[60px] md:text-[24px]">
+        <p className="mx-auto mb-8 sm:mb-10 max-w-[850px] text-base leading-[130%] text-slate-500 sm:text-lg md:mb-[60px] md:text-[24px]">
           Empowering businesses and buildings with future-ready technology that
           works — seamlessly, securely, and efficiently.
         </p>
@@ -286,8 +280,8 @@ const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
         </div>
       )}
 
-      {/* 2. Background Elements */}
-      <div className="pointer-events-none absolute bottom-[-900px] left-1/2 z-10 h-[1380px] w-[2334px] -translate-x-1/2">
+      {/* 2. Background Elements (Position scales with screen size to prevent cutoffs) */}
+      <div className="pointer-events-none absolute bottom-[-1050px] sm:bottom-[-950px] md:bottom-[-900px] left-1/2 z-10 h-[1380px] w-[2334px] -translate-x-1/2">
         <div className="relative h-full w-full">
           <div className="absolute inset-0 rounded-[100%] bg-white opacity-10 blur-[4px]"></div>
           <div className="absolute top-[280px] left-1/2 z-10 h-[1020px] w-[2014px] -translate-x-1/2 rounded-[100%] bg-brisk-navy-100 opacity-100 blur-[160px]"></div>

@@ -139,11 +139,11 @@ const ContactUs = () => {
 
       {/* CTA Bottom Section */}
       <div className="px-[5%] py-20 lg:px-[120px]">
-        <div className="mx-auto max-w-[1920px] text-right">
+        <div className="mx-auto max-w-[1920px] text-left md:text-right">
           <h3 className="mb-4 font-['Inter'] text-[42px] font-bold tracking-tight text-[#0B1221] md:text-[64px]">
             Let's Build Smarter, Together.
           </h3>
-          <p className="ml-auto max-w-[500px] text-base font-medium">
+          <p className="max-w-[500px] text-base font-medium text-slate-600 md:ml-auto">
             Get in touch today to see how BriskTek can simplify your technology and help your business grow.
           </p>
         </div>
