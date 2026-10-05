@@ -219,7 +219,7 @@ const BusinessSolutions = () => {
 
             {/* Fixed: Responsive tracking on Bildstrata heading */}
             <h2 className="max-w-[1329px] font-['Inter'] text-[32px] font-medium leading-[120%] tracking-tight sm:text-[54px] sm:tracking-normal lg:text-[76px] lg:tracking-[-3px] text-white">
-              Meet <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Bildstrata</span>:
+              Meet <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Bild App</span>:
               <br className="hidden md:block" />
               The Next Era of Strata Building Management
             </h2>
@@ -227,8 +227,7 @@ const BusinessSolutions = () => {
             <p className="mt-8 max-w-[820px] text-[18px] leading-relaxed text-slate-400 md:text-[22px]">
               We are building a smart, centralized strata management platform
               designed to streamline daily operations, record keeping, documentations,
-              bookings, and resident communication — available on web
-              and mobile soon.
+              bookings, and resident communication.
             </p>
           </div>
 
@@ -240,9 +239,9 @@ const BusinessSolutions = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                 </svg>
               </div>
-              <h3 className="mb-3 text-xl font-bold text-white">Centralized Operations</h3>
+              <h3 className="mb-3 text-xl font-bold text-white">One Log, Zero Chasing</h3>
               <p className="text-sm leading-relaxed text-slate-400">
-                Manage strata council minutes, maintenance logs, and financial records in one encrypted hub.
+                Preventative maintenance, generator tests, and trade work all land in a single schedule with status visible in real time. Council sees what's done, overdue, or in progress without a single check-in call. Makes supervision a glance rather than a meeting.
               </p>
             </div>
 
@@ -252,9 +251,9 @@ const BusinessSolutions = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
                 </svg>
               </div>
-              <h3 className="mb-3 text-xl font-bold text-white">Mobile-First App</h3>
+              <h3 className="mb-3 text-xl font-bold text-white">Every Incident, Timestamped</h3>
               <p className="text-sm leading-relaxed text-slate-400">
-                Empower residents and managers to submit work orders, track tickets, and book amenities on the go.
+                Pre- and post-inspections and incident reports are logged the moment they happen, with photos and notes attached. If a dispute or liability question ever comes up, the record already exists. Council isn't relying on staff memory or a verbal recap.
               </p>
             </div>
 
@@ -264,9 +263,9 @@ const BusinessSolutions = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <h3 className="mb-3 text-xl font-bold text-white">Smart Building Sync</h3>
+              <h3 className="mb-3 text-xl font-bold text-white">Consistent Rules, Protected Optics</h3>
               <p className="text-sm leading-relaxed text-slate-400">
-                Seamlessly bridges hardware integrations, smart access controllers, and direct communications.
+                Violations and resident notices follow the same tracked process every time with no inconsistent enforcement, no "he said/she said." A building that's seen to be run fairly and tidily holds its reputation and resale value, and council gets that assurance without policing it directly.
               </p>
             </div>
           </div>
