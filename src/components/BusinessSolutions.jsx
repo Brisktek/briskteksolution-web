@@ -9,7 +9,6 @@ import cursor from "../assets/arrow.png";
 
 const BusinessSolutions = () => {
   return (
-    /* Background matches the light grey triangle fill (#F9F9F9) */
     <section id="services">
       <div className="px-[5%] py-20 md:py-32 lg:px-[120px] lg:py-40">
         <div className="mx-auto max-w-[1920px]">
@@ -21,7 +20,6 @@ const BusinessSolutions = () => {
             <span className="mb-4 font-['Inter'] text-[32px] font-medium tracking-normal text-[#2348FF] sm:text-[54px] lg:text-[80px]">
               Business IT Solutions
             </span>
-            {/* Fixed: Replaced fixed tracking-[-4px] with responsive tracking */}
             <h2 className="max-w-[1329px] font-['Inter'] text-[32px] font-medium leading-[125%] tracking-tight sm:text-[54px] sm:tracking-normal lg:text-[80px] lg:tracking-[-4px] text-slate-900">
               Helping your business stay <br className="hidden lg:block" />
               connected, protected, and productive.
@@ -137,7 +135,6 @@ const BusinessSolutions = () => {
             2
           </div>
           <div className="mb-[60px] flex flex-col items-center px-5 text-center md:mb-[100px]">
-            {/* Fixed: Responsive tracking on Strata headings */}
             <h1 className="max-w-[1329px] font-['Inter'] text-[32px] font-medium leading-[125%] tracking-tight sm:text-[64px] sm:tracking-normal lg:text-[80px] lg:tracking-[-4px] text-white">
               Strata Technology Solutions
             </h1>
@@ -189,8 +186,8 @@ const BusinessSolutions = () => {
                 Setup
               </h3>
               <p className="text-[14px] leading-relaxed text-[#86868B]">
-                Structured cabling, CCTV, access control, and smart
-                integrations for modern buildings.
+                Structured cabling, CCTV, access control, and smart integrations
+                for modern buildings.
               </p>
             </div>
           </div>
@@ -207,7 +204,7 @@ const BusinessSolutions = () => {
 
           <div className="mb-[60px] flex flex-col items-center text-center md:mb-[100px]">
             {/* Tag / Coming Soon Label */}
-            <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-cyan-400/30 bg-cyan-400/10 px-5 py-2">
+            <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-cyan-400/30 bg-cyan-400/10 px-5 py-2">
               <span className="relative flex h-2.5 w-2.5">
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-cyan-400 opacity-75"></span>
                 <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-cyan-400"></span>
@@ -217,17 +214,27 @@ const BusinessSolutions = () => {
               </span>
             </div>
 
-            {/* Fixed: Responsive tracking on Bildstrata heading */}
-            <h2 className="max-w-[1329px] font-['Inter'] text-[32px] font-medium leading-[120%] tracking-tight sm:text-[54px] sm:tracking-normal lg:text-[76px] lg:tracking-[-3px] text-white">
-              Meet <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Bild App</span>:
-              <br className="hidden md:block" />
-              The Next Era of Strata Building Management
+            {/* Meet + Bild Logo Inline Lockup */}
+            <h2 className="max-w-[1329px] font-['Inter'] text-[32px] font-medium leading-[125%] tracking-tight text-white sm:text-[54px] sm:tracking-normal lg:text-[76px] lg:tracking-[-3px]">
+              <span className="inline-flex flex-wrap items-center justify-center gap-4 align-middle sm:gap-6 lg:gap-7">
+                <span className="mr-1 sm:mr-2">Meet</span>
+                <span className="inline-flex items-center overflow-hidden rounded-xl bg-white px-3.5 py-1.5 shadow-md sm:px-5 sm:py-2">
+                  <img
+                    src="https://cloud.bildstrata.com/logo.svg"
+                    alt="Bild Strata"
+                    className="h-6 w-auto object-contain sm:h-9 lg:h-11"
+                  />
+                </span>
+              </span>
+              <span className="mt-4 block text-slate-200">
+                The Next Era of Strata Building Management
+              </span>
             </h2>
 
             <p className="mt-8 max-w-[820px] text-[18px] leading-relaxed text-slate-400 md:text-[22px]">
               We are building a smart, centralized strata management platform
-              designed to streamline daily operations, record keeping, documentations,
-              bookings, and resident communication.
+              designed to streamline daily operations, record keeping,
+              documentations, bookings, and resident communication.
             </p>
           </div>
 
@@ -235,37 +242,87 @@ const BusinessSolutions = () => {
           <div className="mx-auto grid max-w-[1200px] grid-cols-1 gap-6 md:grid-cols-3">
             <div className="rounded-[28px] border border-slate-800 bg-slate-900/60 p-8 backdrop-blur-sm transition-all hover:border-slate-700">
               <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-600/20 text-cyan-400">
-                <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                <svg
+                  width="24"
+                  height="24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
+                  />
                 </svg>
               </div>
-              <h3 className="mb-3 text-xl font-bold text-white">One Log, Zero Chasing</h3>
+              <h3 className="mb-3 text-xl font-bold text-white">
+                One Log, Zero Chasing
+              </h3>
               <p className="text-sm leading-relaxed text-slate-400">
-                Preventative maintenance, generator tests, and trade work all land in a single schedule with status visible in real time. Council sees what's done, overdue, or in progress without a single check-in call. Makes supervision a glance rather than a meeting.
+                Preventative maintenance, generator tests, and trade work all
+                land in a single schedule with status visible in real time.
+                Council sees what's done, overdue, or in progress without a
+                single check-in call. Makes supervision a glance rather than a
+                meeting.
               </p>
             </div>
 
             <div className="rounded-[28px] border border-slate-800 bg-slate-900/60 p-8 backdrop-blur-sm transition-all hover:border-slate-700">
               <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-600/20 text-cyan-400">
-                <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                <svg
+                  width="24"
+                  height="24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
+                  />
                 </svg>
               </div>
-              <h3 className="mb-3 text-xl font-bold text-white">Every Incident, Timestamped</h3>
+              <h3 className="mb-3 text-xl font-bold text-white">
+                Every Incident, Timestamped
+              </h3>
               <p className="text-sm leading-relaxed text-slate-400">
-                Pre- and post-inspections and incident reports are logged the moment they happen, with photos and notes attached. If a dispute or liability question ever comes up, the record already exists. Council isn't relying on staff memory or a verbal recap.
+                Pre- and post-inspections and incident reports are logged the
+                moment they happen, with photos and notes attached. If a dispute
+                or liability question ever comes up, the record already exists.
+                Council isn't relying on staff memory or a verbal recap.
               </p>
             </div>
 
             <div className="rounded-[28px] border border-slate-800 bg-slate-900/60 p-8 backdrop-blur-sm transition-all hover:border-slate-700">
               <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-600/20 text-cyan-400">
-                <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                <svg
+                  width="24"
+                  height="24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M13 10V3L4 14h7v7l9-11h-7z"
+                  />
                 </svg>
               </div>
-              <h3 className="mb-3 text-xl font-bold text-white">Consistent Rules, Protected Optics</h3>
+              <h3 className="mb-3 text-xl font-bold text-white">
+                Consistent Rules, Protected Optics
+              </h3>
               <p className="text-sm leading-relaxed text-slate-400">
-                Violations and resident notices follow the same tracked process every time with no inconsistent enforcement, no "he said/she said." A building that's seen to be run fairly and tidily holds its reputation and resale value, and council gets that assurance without policing it directly.
+                Violations and resident notices follow the same tracked process
+                every time with no inconsistent enforcement, no "he said/she
+                said." A building that's seen to be run fairly and tidily holds
+                its reputation and resale value, and council gets that assurance
+                without policing it directly.
               </p>
             </div>
           </div>
