@@ -215,7 +215,7 @@ const BusinessSolutions = () => {
             </div>
 
             {/* Meet + Bild Logo Inline Lockup */}
-            <h2 className="max-w-[1329px] font-['Inter'] text-[32px] font-medium leading-[125%] tracking-tight text-white sm:text-[54px] sm:tracking-normal lg:text-[76px] lg:tracking-[-3px]">
+            {/* <h2 className="max-w-[1329px] font-['Inter'] text-[32px] font-medium leading-[125%] tracking-tight text-white sm:text-[54px] sm:tracking-normal lg:text-[76px] lg:tracking-[-3px]">
               <span className="inline-flex flex-wrap items-center justify-center gap-4 align-middle sm:gap-6 lg:gap-7">
                 <span className="mr-1 sm:mr-2">Meet</span>
                 <span className="inline-flex items-center overflow-hidden rounded-xl bg-white px-3.5 py-1.5 shadow-md sm:px-5 sm:py-2">
@@ -229,7 +229,27 @@ const BusinessSolutions = () => {
               <span className="mt-4 block text-slate-200">
                 The Next Era of Strata Building Management
               </span>
-            </h2>
+            </h2> */}
+
+{/* Meet + Bild Logo Inline Lockup (No background container) */}
+<h2 className="max-w-[1329px] font-['Inter'] text-[32px] font-medium leading-[125%] tracking-tight text-white sm:text-[54px] sm:tracking-normal lg:text-[76px] lg:tracking-[-3px]">
+  <span className="inline-flex flex-wrap items-center justify-center gap-4 sm:gap-6 lg:gap-8 align-middle">
+    <span>Meet</span>
+    {/* 
+      - No background pill / container
+      - brightness-0 makes any graphic pure black (#000000)
+      - If you ever need it white on dark, change to: brightness-0 invert
+    */}
+    <img
+      src="https://cloud.bildstrata.com/logo.svg"
+      alt="Bild Strata"
+      className="h-8 sm:h-12 lg:h-16 w-auto object-contain brightness-0"
+    />
+  </span>
+  <span className="mt-4 block text-slate-200">
+    The Next Era of Strata Building Management
+  </span>
+</h2>
 
             <p className="mt-8 max-w-[820px] text-[18px] leading-relaxed text-slate-400 md:text-[22px]">
               We are building a smart, centralized strata management platform
